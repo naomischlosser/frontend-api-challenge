@@ -1,0 +1,45 @@
+h1, p, * {
+  font-family: sans-serif;
+}
+
+h3, p {
+  font-size: 16px;
+}
+
+html {
+  background:#fad5ef;
+}
+
+#main-container, #top {
+  background: white;
+  width: 600px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+  padding-bottom: 40px;
+  border-radius: 10px;
+}
+
+.peep {
+  border-bottom: 1px solid #aaa;
+  padding: 15px;
+}
+
+input[type=text] {
+  width: 80%;
+  background: #fefefe;
+  border-radius: 4px;
+  padding: 10px 8px;
+  border: 1px solid rgb(0, 0, 0);
+  font-size: 15px;
+}
+
+button {
+  background: #000000;
+  border-radius: 4px;
+  padding: 10px 8px;
+  border: 1px solid #000000;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+}
