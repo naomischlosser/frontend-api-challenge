@@ -14,6 +14,10 @@ class PeepModel {
   resetPeeps() {
     this.peeps = [];
   };
+
+  setPeeps(apiPeeps) {
+    this.peeps = apiPeeps;
+  }
 };
 
 module.exports = PeepModel;
